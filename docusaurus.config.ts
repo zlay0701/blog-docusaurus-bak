@@ -139,6 +139,11 @@ const config: Config = {
       darkTheme: prismThemes.dracula,
     },
   } satisfies Preset.ThemeConfig,
+
+  plugins: [
+    './src/plugins/CategoryPlugin',
+  ],
+
 };
 
 export default config;
