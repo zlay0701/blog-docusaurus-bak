@@ -86,6 +86,8 @@ const config: Config = {
           label: 'Docusaurus教程',
         },
         {to: '/blog', label: '博客', position: 'left'},
+        {to: '/blog/archive', label: '归档', position: 'left'},
+        {to: '/blog/tags', label: '标签', position: 'left'},
         {
           href: 'https://github.com/zlay0701',
           label: 'GitHub',
