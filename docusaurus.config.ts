@@ -49,6 +49,7 @@ const config: Config = {
         },
         blog: {
           showReadingTime: true,
+          truncateMarker: /<!--\s*more\s*-->/i ,
           postsPerPage: 10, // 每页显示的文章数量
           feedOptions: {
             type: ['rss', 'atom'],
