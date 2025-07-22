@@ -49,6 +49,8 @@ const config: Config = {
         },
         blog: {
           showReadingTime: true,
+          blogSidebarTitle: "近期文章",
+          blogSidebarCount: 10,
           truncateMarker: /<!--\s*more\s*-->/i ,
           postsPerPage: 10, // 每页显示的文章数量
           feedOptions: {
