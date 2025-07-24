@@ -51,7 +51,7 @@ const config: Config = {
           showReadingTime: true,
           blogSidebarTitle: "近期文章",
           blogSidebarCount: 10,
-          truncateMarker: /<!--\s*more\s*-->/i ,
+          truncateMarker: /<!--\s*more\s*-->|<!--\s*truncate\s*-->/i,
           postsPerPage: 10, // 每页显示的文章数量
           feedOptions: {
             type: ['rss', 'atom'],
